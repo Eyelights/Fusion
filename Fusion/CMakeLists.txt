@@ -7,3 +7,6 @@ if(UNIX AND NOT APPLE)
 endif()
 
 install(TARGETS Fusion)
+
+install(FILES Fusion.h FusionAhrs.h FusionAxes.h FusionCOmpas.h
+        DESTINATION include/)
