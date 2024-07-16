@@ -8,5 +8,5 @@ endif()
 
 install(TARGETS Fusion)
 
-install(FILES Fusion.h FusionAhrs.h FusionAxes.h FusionCOmpas.h
-        DESTINATION include/)
+install(FILES Fusion.h FusionAhrs.h FusionAxes.h FusionCompas.h
+        DESTINATION Fusion/include/)
